@@ -12,9 +12,7 @@ def main():
         clear_screen()
         print_banner()
         print_menu()
-
         choice = input("\n  Enter option: ").strip()
-
         if choice == "1":
             clear_screen()
             recon.run()
